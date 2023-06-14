@@ -1,4 +1,9 @@
-name: Test
+name: Deploy
+on:
+    push:
+        branches:
+            - main
+
 
 env:
   CUSTOMER: CUSTOMER1
